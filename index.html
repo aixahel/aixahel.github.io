@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Website</title>
+    <link rel="icon" href="favicon.png" type="image/png"> <!-- Favicon -->
+    <style>
+        /* General body styling */
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif; /* Modern, professional font */
+            background-color: #f0f0f0; /* Light background for contrast */
+            margin: 0;
+            padding: 20px;
+            color: #333; /* Dark text for readability */
+            line-height: 1.6; /* Better line spacing for readability */
+        }
+
+        /* Container for centering content */
+        .container {
+            max-width: 1200px; /* Sets a max width for the content */
+            margin: 0 auto; /* Centers the content */
+            padding: 20px;
+            background-color: #fff; /* White background for contrast */
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+            border-radius: 8px; /* Rounded corners for a modern look */
+        }
+        /* Main heading styling */
+        h1 {
+            color: #2c3e50; /* Dark blue color for a clean, professional feel */
+            text-align: center; /* Centers the text */
+            font-size: 2.5em; /* Larger font size for emphasis */
+            margin-bottom: 20px;
+        }
+        /* Subheading styling */
+        h2 {
+            color: #34495e; /* A slightly lighter blue for subheadings */
+            text-align: center; /* Centers the text */
+            font-size: 2em; /* Slightly smaller than the main heading */
+            margin-top: 40px;
+        }
+        /* Paragraph text styling */
+        p {
+            text-align: center; /* Centers the paragraph text */
+            font-size: 1.1em; /* Slightly larger text for easier reading */
+        }
+        /* Unordered and ordered list styling */
+        ul, ol {
+            margin: 20px auto; /* Adds spacing around the lists */
+            padding: 0;
+            max-width: 600px; /* Limits the width to avoid too wide text */
+            text-align: left; /* Left-aligns the list items */
+        }
+        /* List item styling for unordered list */
+        ul li, ol li {
+            background-color: #ecf0f1; /* Light gray background for list items */
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px; /* Rounded corners for a modern touch */
+           /* list-style-type: none; Removes default bullet points */
+            font-size: 1.2em; /* Slightly larger font for readability */
+        }
+         /* Different background color for ordered list items */
+        ol li {
+            background-color: #d0d3d4; /* Slightly darker background for contrast */
+        }
+         /* Table styling for professional look */
+        table {
+            width: 100%; /* Makes the table take up the full width */
+            border-collapse: collapse; /* Removes gaps between table cells */
+            margin: 20px 0;
+            text-align: left; /* Left-aligns the text in the table */
+            background-color: #ecf0f1; /* Light background for table cells */
+            border-radius: 8px; /* Rounded corners for the table */
+        }
+
+        table, th, td {
+            border: none;
+            padding: 15px; /* Adds padding to make the text more readable */
+        }
+        /* Header row styling */
+        th {
+            background-color: #2980b9; /* Blue background for the header */
+            color: white; /* White text for contrast in the header */
+        }
+        /* Table cell styling */
+        td {
+            background-color: #fff; /* White background for the data cells */
+            border-bottom: 1px solid #ddd; /* Light border between rows */
+        }
+
+        /* Styling for images */
+        img {
+            max-width: 100%; /* Ensures images are responsive and fit the container */
+            height: auto; /* Maintains the aspect ratio of the images */
+            border-radius: 8px; /* Rounded corners for a clean, modern look */
+            margin-bottom: 10px;
+        }
+        /* Adds a border around image links */
+        .image-link img {
+            border: 3px solid #3498db; /* Blue border for linked images */
+        }
+
+        /* Link styling */
+        a {
+            color: #3498db; /* Blue color for links */
+            text-decoration: none; /* Removes the underline for a cleaner look */
+            transition: color 0.3s ease; /* Smooth color transition on hover */
+        }
+        /* Hover effect for links */
+        a:hover {
+            color: #2980b9; /* Darker blue on hover for better visibility */
+        }
+
+        /* Footer */
+        footer {
+            text-align: center; /* Centers the footer text */
+            padding: 20px;
+            background-color: #2c3e50; /* Dark background for the footer */
+            color: white; /* White text for contrast */
+            position: fixed; /* Sticks the footer to the bottom */
+            bottom: 0;
+            left: 0;
+            right: 0;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Welcome to My Personal Website!</h1>
+
+        <!-- Unordered List -->
+        <h2>My Hobbies</h2>
+        <ul>
+            <li>Playing Football</li>
+            <li>Traveling</li>
+            <li>Reading</li>
+            <li>Coding</li>
+        </ul>
+
+        <!-- Ordered List -->
+        <h2>My Top 3 Favorite Books</h2>
+        <ol type="1">
+            <li>It Starts With Us by Colleen Hoover</li>
+            <li>The Ballad of Songbird and Snakes by Suzanne Collins</li>
+            <li>Percy Jackson by Rick Riordan</li>
+        </ol>
+
+        <!-- Table with Borders -->
+        <h2>My Favorite Movies</h2>
+        <table>
+            <tr>
+                <th>Title</th>
+                <th>Year</th>
+                <th>Genre</th>
+            </tr>
+            <tr>
+                <td>Dirty Dancing</td>
+                <td>1987</td>
+                <td>Romance/Dance</td>
+            </tr>
+            <tr>
+                <td>Me Before You</td>
+                <td>2016</td>
+                <td>Romance/Dance</td>
+            </tr>
+        </table>
+
+        <!-- Table without Borders -->
+        <h2>My Favorite Foods</h2>
+        <table style="border: none;">
+            <tr>
+                <td><img src="pizza.jpg" alt="Pizza"></td>
+            </tr>
+            <tr>
+                <td><img src="sushi.jpg" alt="Sushi"></td>
+            </tr>
+            <tr>
+                <td><img src="ice-cream.jpg" alt="Ice Cream"></td>
+            </tr>
+        </table>
+
+        <!-- Image of Myself -->
+        <h2>About Me</h2>
+        <p>This is a picture of me playing football for my club team in Santiago, Chile. The club is called Union Espanola.</p>
+        <div style="display: flex; justify-content: center;">
+            <img src="myself.jpg" alt="A picture of me">
+        </div>
+
+        <!-- Text Link -->
+        <h2>Useful Links</h2>
+        <p><a href="https://www.linkedin.com/in/aixa-helbringer-escobar-33a57a187">Visit my Likedin</a></p>
+
+        <!-- Image Link -->
+        <p><a href="https://icatcare.org/app/uploads/2018/07/Thinking-of-getting-a-cat.png" class="image-link">
+            <img src="example.jpg" alt="Image of my favorite animal a cat">
+        </a></p>
+
+        <!-- Link that opens in a new tab -->
+        <p><a href="https://www.linkedin.com/in/aixa-helbringer-escobar-33a57a187" target="_blank">Open my Likedin link in a new tab</a></p>
+
+        <!-- Special Character and Emoji -->
+        <h2>Fun Fact</h2>
+        <p>Here's a smiley emoji: &#128522;</p>
+    </div>
+
+    <footer>
+        &copy; 2024 My Personal Website by Aixa Helbringer-Escobar | All rights reserved.
+    </footer>
+
+</body>
+</html>
